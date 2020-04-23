@@ -12,6 +12,8 @@ The data of each participant are saved in .mat files in the 'data' folder.
 
 Data are saved in a structure variable named 'trl' that contains trial-by-trial information.
 
+trl.config: the configuration (stimulus distribution)
+
 trl.estC: confidence reports 
 
 trl.estD : category decisions
