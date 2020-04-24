@@ -28,7 +28,7 @@ trl.theta: the color (angle in unit of radian on a color wheel) of the leftmost 
 Execute wrapper_fitmodel.m to run the optimization. In this script, one can determine which model, experiment and subject to fit. 
 wrapper_fitmodel.m calls fitmodel_on_individual.m to set up and start the optimization. 
 
-In fitmodel_on_individual.m, codes for optimization using either BADS or patternsearch are provided.
+One can choose to use either BADS or patternsearch for optimization in fitmodel_on_individual.m.
 
 nll_diff_is.m, nll_map_is.m and, nll_en_is.m compute the values of the objective functions for the Difference, Max and Entropy models respectively. In these three functions, response distributions of category decisions and confidence reports are estimated by Monte-Carlo simulations, and the the negative log-likelihood of the model is computed.
 
