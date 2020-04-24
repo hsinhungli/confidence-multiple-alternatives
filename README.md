@@ -5,7 +5,7 @@ This repository accompanies the following paper:
 Li, H.H. and Ma, W.J. (2020). Confidence reports in decision-making with multiple alternatives violate the Bayesian confidence hypothesis. Nature Communications.
 DOI: 10.1038/s41467-020-15581-6
 
-The repository contains data and MATLAB code for fitting three main models to the data.
+The repository contains data and MATLAB code for fitting three main models to the data. Please refer to this paper when using the data or the code in this repository.
 
 ## Data
 The data of each participant are saved in .mat files in the 'data' folder.
